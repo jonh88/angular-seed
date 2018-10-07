@@ -2,4 +2,13 @@
     .container-fluid {
         border: 1px black solid;
     }
+    .fcontainer {
+        border: 1px black solid;
+        .data {
+            padding: 3rem;
+        }
+        div {
+            border: 1px black solid;
+        }
+    }
 }

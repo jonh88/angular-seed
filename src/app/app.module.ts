@@ -5,7 +5,7 @@ import { CoreModule } from '@ds-core/core.module';
 import { ShellModule, ShellMainComponent } from './shell';
 
 // feature modules
-import { DashBoardModule } from '@ds-features/dashboard/dashboard.module';
+import { FeatureModule } from '@ds-features/feature/feature.module';
 
 @NgModule({
   declarations: [],
@@ -17,7 +17,7 @@ import { DashBoardModule } from '@ds-features/dashboard/dashboard.module';
     CoreModule,
 
     // features
-    DashBoardModule,
+    FeatureModule,
 
     // routes
     AppRoutingModule,

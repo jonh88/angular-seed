@@ -7,12 +7,12 @@ import { NotFoundComponent } from '@ds-core/components/not-found/not-found.compo
 const routes: Routes = [
   {
     path: '',
-    redirectTo: ROUTES.DASHBOARD.path,
+    redirectTo: ROUTES.FEATURE.path,
     pathMatch: 'full'
   },
   {
-    path: ROUTES.DASHBOARD.path,
-    loadChildren: ROUTES.DASHBOARD.module,
+    path: ROUTES.FEATURE.path,
+    loadChildren: ROUTES.FEATURE.module,
   },
   {
     path: '**',

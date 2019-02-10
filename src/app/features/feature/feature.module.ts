@@ -4,18 +4,18 @@ import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 // ROUTES
-import { DashboardRoutingModule } from './dashboard-routing.module';
-import { DashboardComponent } from '@ds-features/dashboard/routes/dashboard/dashboard.component';
+import { FeatureRoutingModule } from './feature-routing.module';
+import { FeatureComponent } from '@ds-features/feature/routes/feature/feature.component';
 
 @NgModule({
   declarations: [
-    DashboardComponent
+    FeatureComponent
   ],
   imports: [
     CommonModule,
     FlexLayoutModule,
-    DashboardRoutingModule,
+    FeatureRoutingModule,
   ],
   providers: [],
 })
-export class DashBoardModule { }
+export class FeatureModule { }

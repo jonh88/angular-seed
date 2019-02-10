@@ -9,7 +9,12 @@ import {
 } from './components';
 
 @NgModule({
-    declarations: [NavComponent, FooterComponent, ShellMainComponent, HeaderComponent],
+    declarations: [
+        ShellMainComponent,
+        HeaderComponent,
+        FooterComponent,
+        NavComponent,
+    ],
     imports: [
         CommonModule,
         RouterModule,

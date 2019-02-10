@@ -13,6 +13,6 @@ export class ShellMainComponent implements OnInit {
   }
 
   isLoggedIn(): boolean {
-    return false;
+    return true;
   }
 }
